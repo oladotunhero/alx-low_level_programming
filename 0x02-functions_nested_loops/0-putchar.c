@@ -1,6 +1,3 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <time.h>
 #include "main.h"
 /**
  * main - print _putchar, followed by new line
