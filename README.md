@@ -1,11 +1,11 @@
-More functions, more nested loops
+<h1>More functions, more nested loops</h1>
 Requirements
 
     Language: C
     OS: Ubuntu 14.04 LTS
     Compiler: gcc 4.8.4
 
-Synopsis
+<h2>Synopsis</h2>
 
 This repository holds some projects I worked on for ALX School. The goal was to learn coding and concepts through the C programming language.
 Concepts I gained a deeper understanding of include:
@@ -17,7 +17,7 @@ Concepts I gained a deeper understanding of include:
     scope of variables
     header files and how to to use them with #include
 
-Description of what each file does:
+    Description of what each file does:
 
     a function that checks for uppercase character
     a function that checks for a digit 0 - 9
