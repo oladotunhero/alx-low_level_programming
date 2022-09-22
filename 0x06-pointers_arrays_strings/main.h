@@ -68,7 +68,7 @@ char *string_toupper(char *);
  * Return: string
  */
 
-char *cap_string(char *s)
+char *cap_string(char *s);
 
 /**
  * leet - encode string into 1337 leet
