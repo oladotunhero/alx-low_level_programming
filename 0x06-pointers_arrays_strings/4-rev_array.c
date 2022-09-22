@@ -6,13 +6,12 @@
  */
 void reverse_array(int *a, int n)
 {
-int tmp, beg = 0;
-int end = n - 1; /* omit null terminator in length */
-while (beg < end)
+int i;
+int t;
+for (i = 0; i < n / 2; i++)
 {
-tmp = *(a + beg);
-*(a + beg) = *(a + end);
-*(a + end) = tmp;
-beg++, end--;
+t = a[i];
+a[i] = a[n - i - 1];
+a[n - i - 1] = t;
 }
 }
