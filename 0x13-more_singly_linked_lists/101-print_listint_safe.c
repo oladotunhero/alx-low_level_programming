@@ -1,17 +1,9 @@
 #include "lists.h"
-
-
-
 /**
-
  * count_nodes_till_loop - count nodes to know now many unique nodes to print
-
  * @head: pointer to head pointer of linked list
-
  * Return: number of unique nodes in list before a loop
-
  */
-
 int count_nodes_till_loop(const listint_t *head)
 {
 int count = 0;
